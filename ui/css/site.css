@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Jura-light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Jura Light'), local('Jura-Light'), url('http://themes.googleusercontent.com/static/fonts/jura/v4/sNAoGlWlqE9781lGvEhJwQLUuEpTyoUstqEm5AMlJo4.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Jura-demibold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Jura DemiBold'), local('Jura-DemiBold'), url('http://themes.googleusercontent.com/static/fonts/jura/v4/ox8CoMbCJ42KWy9Czt9fIALUuEpTyoUstqEm5AMlJo4.ttf') format('truetype'); 
+}
+
+body {
+    margin: 0px;
+    padding: 10px; 
+    font-family: 'Jura-light';
+}
+
+body, #site-search {    
+    color: #FFFFFF;     
+}
+
+#site-header {
+    margin-left: 20px;
+    background:  transparent url('../images/space_junk_blue-logo.png') no-repeat;     
+    height: 150px;   
+}
+
+#site-title {
+    font-family: 'Jura-demibold'; 
+    font-size: 42px;
+    position: relative;
+    left: 220px;
+    top: 48px;
+    color: #1918ff;
+}
+
+#site-search {
+    font-family: 'Jura-light';
+    font-size: 32px;
+    background-color: transparent;
+    border: none;
+}
+
+#site-footer {
+    font-size: 14px;
+    position: absolute;
+    left: 20px;
+    bottom: 12px;
+}

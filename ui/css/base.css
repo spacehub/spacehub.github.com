@@ -1,3 +1,5 @@
 html {
-     background: #000000;
+    overflow-y: scroll;
+    background: #000000 url('../images/html_bg.png') left bottom repeat-x scroll;
+    min-height: 100%;
 }
